@@ -1,7 +1,7 @@
 console.log("==========01==========");
 var myFullName;
 console.log("My Full Name variable value before Initialization:",myFullName);
-console.log("My Full Name varible value after Initialization:Monali Bandgar");
+console.log("My Full Name varible value after Initialization: Monali Bandgar");
 console.log("My full Name variable value after updation:Monali Narayan Bandgar");
 
 console.log("==========02==========");
