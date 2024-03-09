@@ -7,13 +7,12 @@ console.log("My full Name variable value after updation:Monali Narayan Bandgar")
 console.log("==========02==========");
 myLove = "I love only JS"
 console.log("I love only JS");
-
 console.log("==========03==========");
 firstName = "Monali";
 console.log("First name:", firstName);
 lastName = "Bandgar";
 console.log("Last Name:", lastName);
-age = "123";
+age = 123;
 console.log("Age:", age);
 address = "xyz";
 console.log("Address:", address);
