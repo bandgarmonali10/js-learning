@@ -44,14 +44,14 @@ var sentence = "I am Angular Developer";
 var n1 = 22;
 var n2 = 4;
 var result = 22 / 4;
-console.log(` Division after String length divide by total no.of words is:${result}`);
+console.log(` Division after String length divide by total no.of words is: ${result}`);
  totalWords(resultValue);
 
  
  var n1 = 22;
  var n2 = 4;
  var result = 22 * 4;
- console.log(` Multiplication after String length multiplied by total no.of words is:${result}`);
+ console.log(` Multiplication after String length multiplied by total no.of words is: ${result}`);
   totalWords(resultValue);
  
 
