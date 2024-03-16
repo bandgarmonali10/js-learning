@@ -1,14 +1,16 @@
 console.log("*************************Step 1***************************");
- function greaterNumber(num1,num2){
-    var result = num1 >= num2;
- console.log(`Greatest no.amongst two number: ${result}`);
+ function greaterNumber(n1,n2){
+var result = n1>n2 ? n1:n2;
+console.log(`Greatest no.amongst ${n1} & ${n2} is: ${result}`);
+
 }
 greaterNumber(10,-10);
-greaterNumber(800,899)
+greaterNumber(800,889);
+
 
 console.log("*************************Step 2***************************");
 function isEvenOrOddNum(num){
-  var result = num%2==0 ? "Ture" : "False";
+  var result = num%2==0 ? "True" : "False";
   console.log(`Given number is EVEN or ODD: ${result}`);
    
 }
@@ -25,3 +27,5 @@ console.log(`Given word ${word} is with ${result} length` );
  wordLength("JavaScript");
  wordLength("developer");
  wordLength("Google");
+
+ 
