@@ -2,7 +2,6 @@ console.log("*************************Step 1***************************");
  function greaterNumber(n1,n2){
 var result = n1>n2 ? n1:n2;
 console.log(`Greatest no.amongst ${n1} & ${n2} is: ${result}`);
-
 }
 greaterNumber(10,-10);
 greaterNumber(800,889);
