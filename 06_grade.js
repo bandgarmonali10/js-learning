@@ -5,9 +5,11 @@ function gradeCalculation(marks){
         if (marks>=90 && marks<100) {
            console.log(`Fantastic marks: ${marks}, Your grade is A+`); 
         } else {
+
             if (marks>=75 && marks<90) {
                 console.log(`Excellent marks: ${marks}, Your grade is A`);
             } else {
+                
              if (marks>=50 && marks<75) {
                 console.log(`Good marks: ${marks}, Your grade is B`);
              } else {
