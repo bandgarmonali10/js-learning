@@ -15,12 +15,9 @@ console.log(`Total number of vowels in string is: ${vowelsCount} `);
 console.log(`******************Step 2****************`);
 let sum = 0;
 for (let index = 0; index <=5; index++) {
-    sum = sum + index * index * index;
-    
+    sum = sum + index * index * index;    
 }
 console.log(`The sum of cube of numbers from 1 to 5 is : ${sum}`);
-
-
 
 console.log(`******************Step 3****************`);
  function oddPositionedChars(word){
