@@ -58,6 +58,8 @@ console.log(fruits_arr6);
 console.log(`====================8th Step====================`);
 console.log(`====================Last Three Elements====================`);
 const fruits_arr7 = [ "Kiwi", "Apple", "Mango", "Dragon Fruit"];
-Element = fruits_arr7.shift();
-console.log(Element);
 console.log(fruits_arr7);
+
+const len = fruits_arr7.length;
+const sliceLog = fruits_arr7.slice(len-3);
+console.log(sliceLog);
