@@ -18,6 +18,7 @@ function vote(person, age){
     } else {
         console.log(`Sorry. please try next year. Age: ${age}, Name: ${person}`);  
     }
+   
 }
 vote("Jenny", 34);
 vote("Bill", 14);

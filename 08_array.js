@@ -41,5 +41,5 @@ for (let index = 0; index < arrayNums.length; index++) {
 console.log(`====== Traversing an array in reverse =========`);
 for (let index = arrayNums.length-1; index >=0; index--) {
     const element = arrayNums[index];
-    console.log(element); 
+    
 }
