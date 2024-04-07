@@ -44,6 +44,7 @@ let count = 0;
   }
  });
 // console.log(`Prime Numbers : ${primeArray}`);
+
 console.log(`Count of prime numbers : ${count}`);
    }
 countNumber(array)
