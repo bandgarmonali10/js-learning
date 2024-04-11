@@ -5,7 +5,7 @@ let show = () => {
 }
 show();
 
-console.log(`===========step 2. Arrow function with 3 arguments and no return value===========`);
+console.log(`===========step 2. Arrow function with  arguments and no return value===========`);
 
 let multiply = (n1,n2,n3=1) => {
 

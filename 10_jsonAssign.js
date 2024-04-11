@@ -19,13 +19,13 @@ const obj = JSON.parse(jsonStr);
 console.log(obj);
 
 const array = ["Dev","DBA"];
-const result = array.splice(0,1);
+const result = array[0];
 console.log(`role => ${result}`);
 
 const arr = ["Aleix","Melon"];
-const result1 = arr.pop();
+const result1 = arr[1];
 console.log(`Last name => ${result1}`);
 
 const arr1 = [11,12,2019];
-const result2 = arr1.pop();
+const result2 = arr1[2];
 console.log(`Joining year of employee => ${result2}`);
