@@ -21,7 +21,7 @@ const emp_monika = new Employee(77, "Monika", "IT", 40000, "Wipro");
 const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
 const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 
-arrayEmps = [emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi]
+ const arrayEmps = [emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi]
 
 console.log(`-------Emps from Wipro Company------`);
 const arrayNew =arrayEmps.filter( (currentValue)=>{
