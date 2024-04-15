@@ -82,3 +82,6 @@ arrayPerson.filter( (personObj)=>{
    console.log(element);
 
 } );
+
+var str = "hello";
+console.log(str.charCodeAt());

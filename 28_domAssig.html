@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise time!</title>
+    </head>
+    <body>
+        <main>
+            <div id ="overview">
+                <h1 id = "heading">HTML and JavaScript are crucial technologies</h1>
+                <p>The web would not work without them...</p>
+            </div>
+            <div id ="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li class = "secondAdvantage">Available</li>
+                <li>Magical</li>
+            </ul>
+            </div>
+        </main>
+        <script>
+            // Your solution code goes here
+            console.log(`---------------Step 01---------------`);
+            const mainHeading = document.querySelector('#heading')
+            console.log(mainHeading.innerHTML)
+
+            console.log(`---------------Step 02---------------`);
+            const secondAdvantage = document.querySelector('.secondAdvantage')
+             console.log(secondAdvantage.innerHTML);
+            console.log(`---------------Step 03---------------`);
+            const advDiv =document.querySelector('#advantages')
+            console.log(advDiv.innerHTML);
+        </script>
+    </body>
+</html>
